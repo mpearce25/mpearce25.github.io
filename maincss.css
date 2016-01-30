@@ -1,3 +1,58 @@
+body{
+  font-family: 'montserrat', sans-serif;
+}
+
+/* Top Navigation Bar*/
+#tnavbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid black;
+    z-index: 10;
+}
+
+#tnavbarli {
+    float: left;
+}
+
+/* List item formatting and colors for nav bars*/
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial Black
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(40, 124, 212);
+}
+
+.active {
+    background-color: rgb(124, 212, 77);
+}
+/* */
+
+/* End top navigation bar */
+
+#greeting{
+
+
+
+}
+
+
+
+
+
+
+
 
   .parallax {
     height: 500px; /* fallback for older browsers */
@@ -91,23 +146,17 @@
   }
   #group1 .parallax__layer--base {
     background: rgb(102,204,102);
+
   }
 
   #group2 {
     z-index: 3; /* slide under groups 1 and 3 */
   }
   #group2 .parallax__layer--back {
-    //background: rgb(171, 22, 97);
     background-image: url("test.jpg");
     background-size: contain;
   }
 
-  #group4 {
-    z-index: 2; /* slide under group 3 and 5 */
-  }
-  #group4 .parallax__layer--deep {
-    background: rgb(184,223,101);
-  }
 
   #group7 {
     z-index: 3; /* slide over group 7 */

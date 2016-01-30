@@ -78,6 +78,7 @@
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+
   }
 
 
@@ -96,7 +97,9 @@
     z-index: 3; /* slide under groups 1 and 3 */
   }
   #group2 .parallax__layer--back {
-    background: rgb(123,210,102);
+    //background: rgb(171, 22, 97);
+    background-image: url("test.jpg");
+    background-size: contain;
   }
 
   #group4 {

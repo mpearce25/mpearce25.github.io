@@ -86,8 +86,8 @@ li a:hover:not(.active) {
   }
 
   .parallax__layer--base {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
+    -webkit-transform: translateZ(4);
+    transform: translateZ(4);
     z-index: 4;
   }
 

@@ -2,11 +2,21 @@ body{
   font-family: 'montserrat', sans-serif;
   margin: 0px;
   padding: 0px;
+ 
 }
-
+hr{
+  display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
 #home_intro{
   margin: 0%;
-  background-color: #2196F3;
+  background-color: Orange;
   width: 100%;
   height: 40%;
   padding: 0;
@@ -21,38 +31,65 @@ h1{
 }
 #home_matthew_pearce{
   padding-top:3%;
+  padding-bottom: 3%;
+  text-decoration: underline;
 }
-#home_mini_bio{
-  color: rgb(255,255,255);
-  text-align: center;
-  font-size: 25px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-}
+
 .home_squares{
   width: 33.33333%;
+  height: 300px;
   display: inline-block;
   padding: 0;
-  margin: 0;
+  margin: 0; 
 }
+
 #home_developer_square{
-  background-color: #F44336;
+  background-image: url('monitor.png');
+  background-size: 100% 100%;
+  background-color: #2196F3;
 }
+#home_developer_square:hover{
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, .5),
+      rgba(0, 0, 0, .5)
+    );
+}
+
+
 #home_photographer_square{
-  background-color: #FFC107;
+  background-color: #8BC34A;
 }
+#home_photographer_square:hover{
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, .5),
+      rgba(0, 0, 0, .5)
+    );
+}
+
+
 #home_youtuber_square{
-  background-color:#4CAF50;
+  background-color:#F44336;
 }
+#home_youtuber_square:hover{
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, .35),
+      rgba(0, 0, 0, .35)
+    );
+}
+
+
 #home_squares_text{
   text-align: center;
   color: white;
-    font-size: 35px;
+  font-size: 35px;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 700;
+  line-height: 100%;
+  margin-top: 133px;
 }
-
-
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
     margin:0;

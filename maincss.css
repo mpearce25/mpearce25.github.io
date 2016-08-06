@@ -37,8 +37,7 @@ h1{
 }
 
 #home_developer_square{
-  background-image: url('laptop.png');
-  background-size: 100% 100%;
+
   background-color: #2196F3;
 }
 #home_developer_square:hover{
@@ -51,8 +50,7 @@ h1{
 
 #home_photographer_square{
   background-color: #8BC34A;
-  background-image: url('images/camera.png');
-  background-size: 100% 100%;
+
 }
 #home_photographer_square:hover{
   background-image: 

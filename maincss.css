@@ -1,166 +1,66 @@
 body{
   font-family: 'montserrat', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
-/* Top Navigation Bar*/
-#tnavbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    border-bottom: 2px solid black;
-    z-index: 10;
+#home_intro{
+  margin: 0%;
+  background-color: #2196F3;
+  width: 100%;
+  height: 40%;
+  padding: 0;
+  
+}
+h1{
+  color: rgb(255,255,255);
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+#home_matthew_pearce{
+  padding-top:3%;
+}
+#home_mini_bio{
+  color: rgb(255,255,255);
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.home_squares{
+  width: 33.33333%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#home_developer_square{
+  background-color: #F44336;
+}
+#home_photographer_square{
+  background-color: #FFC107;
+}
+#home_youtuber_square{
+  background-color:#4CAF50;
+}
+#home_squares_text{
+  text-align: center;
+  color: white;
+    font-size: 35px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
-#tnavbarli {
-    float: left;
-}
-
-/* List item formatting and colors for nav bars*/
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-family: Arial Black
-}
-
-li a:hover:not(.active) {
-    background-color: rgb(40, 124, 212);
-}
-
-.active {
-    background-color: rgb(124, 212, 77);
-}
-/* */
-
-/* End top navigation bar */
-
-#greeting{
 
 
-
-}
-
-
-
-
-
-
-
-
-  .parallax {
-    height: 500px; /* fallback for older browsers */
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-perspective: 300px;
-    perspective: 300px;
-  }
-
-  .parallax__group {
-    position: relative;
-    height: 500px; /* fallback for older browsers */
-    height: 100vh;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-  }
-
-  .parallax__layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  .parallax__layer--fore {
-    -webkit-transform: translateZ(90px) scale(.7);
-    transform: translateZ(90px) scale(.7);
-    z-index: 1;
-  }
-
-  .parallax__layer--base {
-    -webkit-transform: translateZ(4);
-    transform: translateZ(4);
-    z-index: 4;
-  }
-
-  .parallax__layer--back {
-    -webkit-transform: translateZ(-300px) scale(2);
-    transform: translateZ(-300px) scale(2);
-    z-index: 3;
-  }
-
-  .parallax__layer--deep {
-    -webkit-transform: translateZ(-600px) scale(3);
-    transform: translateZ(-600px) scale(3);
-    z-index: 2;
-  }
-
-
-
-  /* demo styles
-  --------------------------------------------- */
-
-  body, html {
-    overflow: hidden;
-  }
-
-  body {
-    font: 100% / 1.5 Arial;
-  }
-
-  * {
-    margin:auto;
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
     padding:0;
-  }
-
-  .parallax {
-    font-size: 200%;
-  }
-
-   /* centre the content in the parallax layers */
-  .title {
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-
-  }
+}
+  
 
 
 
-  /* style the groups
-  --------------------------------------------- */
-
-  #group1 {
-    z-index: 5; /* slide over group 2 */
-  }
-  #group1 .parallax__layer--base {
-    background: rgb(102,204,102);
-
-  }
-
-  #group2 {
-    z-index: 3; /* slide under groups 1 and 3 */
-  }
-  #group2 .parallax__layer--back {
-    background-image: url("test.jpg");
-    background-size: contain;
-  }
 
 
-  #group7 {
-    z-index: 3; /* slide over group 7 */
-  }
-  #group7 .parallax__layer--base {
-    background: rgb(255,241,100);
-  }

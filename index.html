@@ -4,10 +4,12 @@
   <title>Matthew Pearce</title>
 
  
-<link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet">
-
   <link href = 'maincss.css' rel='stylesheet' type='text/css'>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="plugins/typed.js"></script>
 
 </head>
 
@@ -24,11 +26,22 @@
   </div>
 
 <div id="home_about">
-  <h3 id="home_about_header_text">About Me</h3>
+  <div class = "typed_text_wrapper">
+    <span id = "home_about_header_text"></span>
+  </div>
 </div>
   
 
-      
-
+    
 </body>
 </html>
+
+<script>
+    $(function(){
+        $("#home_about_header_text").typed({
+            strings: ["Welcome.^1000", "^200About Me."],
+            typeSpeed: 0
+        });
+    });
+</script>
+

@@ -87,12 +87,45 @@ h1{
   font-family: 'Suez One', serif;
   font-size: 45px;
   color: #607D8B;
-  text-align: center;
+  
   padding-top:2%;
+  display: inline;
+  text-align: center;
 }
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s 5s;
+    -moz-animation: blink 0.7s 5s;
+    animation: blink 0.7s infinite;
+    display: inline;
+    text-align: center;
+    font-family: 'Suez One', serif;
+  font-size: 45px;
+  color: #607D8B;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
 
 #home_about{
   height: 500px;
+  
   
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,efefef+40,efefef+60,ffffff+100 */
 background: #ffffff; /* Old browsers */
@@ -107,7 +140,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
   
 
-
+.typed_text_wrapper{
+  text-align: center;
+}
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
     margin:0;

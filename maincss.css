@@ -12,6 +12,7 @@ body{
   width: 100%;
   height: 40%;
   padding: 0;
+  position: relative;
 }
 
 h1{
@@ -26,6 +27,19 @@ h1{
   padding-top:3%;
   padding-bottom: 3%;
   text-decoration: underline;
+
+  position: relative;
+  
+}
+#home_matthew_pearce_wrapper{
+ 
+z-index: 10; 
+
+  -webkit-box-shadow: 0px 21px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 21px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  position: relative;
+  
 }
 
 .home_squares{
@@ -33,12 +47,21 @@ h1{
   height: 300px;
   display: inline-block;
   padding: 0;
-  margin: 0; 
+  margin: 0;
+  position: relative;
+  z-index: 0;
+  
+  
 }
 
 #home_developer_square{
 
   background-color: #2196F3;
+  position: relative;
+  z-index: 5;
+  -webkit-box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
 }
 #home_developer_square:hover{
   background-image: 
@@ -50,7 +73,11 @@ h1{
 
 #home_photographer_square{
   background-color: #8BC34A;
-
+position: relative;
+z-index: 2:
+  -webkit-box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
 }
 #home_photographer_square:hover{
   background-image: 
@@ -62,6 +89,11 @@ h1{
 
 #home_youtuber_square{
   background-color:#F44336;
+  position: relative;
+   z-index: 0;
+  -webkit-box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
 }
 #home_youtuber_square:hover{
   background-image: 

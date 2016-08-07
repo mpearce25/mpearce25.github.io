@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	width: 25%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+	text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+#home_link{
+	background-color: #ff9800;
+}
+#developer_link{
+	background-color: #2196F3;
+;
+}
+#photography_link{
+	background-color: #8BC34A;
+}
+#youtube_link{
+	background-color: #F44336;
+}
+
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}

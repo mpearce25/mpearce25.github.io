@@ -30,19 +30,37 @@
   <div class = "typed_text_wrapper">
     <span id = "home_about_header_text"></span>
   </div>
-</div>
+
+
+<div id="home_profile">
   
+    <span id = "home_profile_text"></span>
+  
+</div>
+</div>
 
     
 </body>
 </html>
-
+ 
 <script>
     $(function(){
         $("#home_about_header_text").typed({
-            strings: ["^1000Welcome.^1000", "^200About Me."],
-            typeSpeed: 0
+            strings: ["^1000Welcome.^1500", "^800About Me"],
+            typeSpeed: 20
         });
+        
     });
 </script>
+<script>
+    $(function(){
+        $("#home_profile_text").typed({
+            strings: ["^5500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Matthew Pearce. I am currentely 17 years and enrolled in high school. My biggest passions are computer science, photography, and producing youtube videos; which you can learn more about by clicking the above links. Additionally hobbies include running, badminton, reading, and graphic design. ^2000"],
+            typeSpeed: 0,
+            showCursor: false
+        });
+        
+    });
+</script>
+
 

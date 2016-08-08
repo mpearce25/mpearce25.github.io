@@ -1,14 +1,23 @@
+body{
+	
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+	z-index: 10; 
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+  position: relative;
 }
 
 li {
     float: left;
 	width: 25%;
+	height: 65px;
 }
 
 li a {
@@ -20,16 +29,16 @@ li a {
 	
 	text-align: center;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 #home_link{
 	background-color: #ff9800;
 }
 #developer_link{
-	background-color: #2196F3;
+	background-color: rgb(13,60,97);
 ;
 }
 #photography_link{

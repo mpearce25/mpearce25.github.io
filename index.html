@@ -18,11 +18,11 @@
     <div id = "home_matthew_pearce_wrapper"><h1 id="home_matthew_pearce">MATTHEW PEARCE</h1></div>
     
     <div id="home_developer_square" class="home_squares">
-      <span href="developer.html"><p id = "home_squares_text">&lt/Developer&gt</p> </span>
+    <p id = "home_squares_text">&lt/Developer&gt</p> <a href="developer.html"></a>
     </div><div id="home_photographer_square" class="home_squares">
-      <p id = "home_squares_text">Photographer</p>
+      <p id = "home_squares_text">Photographer</p><a href="photography.html"></a>
     </div><div id="home_youtuber_square" class="home_squares">
-      <p id = "home_squares_text">Youtuber</p>
+      <p id = "home_squares_text">Youtuber</p><a href="youtube.html"></a>
     </div>
   </div>
 
@@ -46,21 +46,36 @@
 <script>
     $(function(){
         $("#home_about_header_text").typed({
-            strings: ["^1000Welcome.^1500", "^800About Me"],
+            strings: ["^1000Welcome.^1500"/*, "^800About Me"*/],
             typeSpeed: 20
         });
         
     });
+    
+    $("#home_developer_square").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
+     $("#home_photographer_square").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
+      $("#home_youtuber_square").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
 </script>
 <script>
-    $(function(){
+ /*   $(function(){
         $("#home_profile_text").typed({
-            strings: ["^5500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Matthew Pearce. I am currentely 17 years and enrolled in high school. My biggest passions are computer science, photography, and producing youtube videos; which you can learn more about by clicking the above links. Additionally hobbies include stuff. ^2000"],
+            strings: ["^5500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Matthew Pearce. I am currentely 17 years and enrolled in high school. My biggest passions are computer science, photography, and producing youtube videos; which you can learn more about by clicking the above links.^2000"],
             typeSpeed: 0,
             showCursor: false
         });
         
-    });
+    });*/
+ 
 </script>
+
 
 

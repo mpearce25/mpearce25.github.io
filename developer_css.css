@@ -5,7 +5,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 body{
 	
 }
-ul {
+#nav_bar{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,13 +18,13 @@ ul {
   position: relative;
 }
 
-li {
+.nav_item{
     float: left;
 	width: 25%;
 	height: 65px;
 }
 
-li a {
+.nav_link{
     display: block;
     color: white;
     text-align: center;
@@ -59,14 +59,33 @@ h1{
   font-family: 'Suez One', serif;
   font-size: 60px;
   color: #607D8B;
-  text-align: left;
-  margin-left:5%;
+  text-align: center;
 }
 
-#percentage{
-	display: inline;
-	/*background: blue;*/
+#skills_header{
+	
 }
+#skills_list_wrapper{
+	float: right;
+	
+	position: relative;
+	left: -50%;
+	text-align: left;
+}
+#skills_list_wrapper > #skills_list{
+	list-style-type: none;
+    overflow: hidden;
+	position:relative;
+	left: 50%;
+	
+}
+.skills_item{
+	display:inline;
+
+
+}
+
+
 /* skills*/
 
 

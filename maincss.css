@@ -1,3 +1,7 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
 body{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -168,7 +172,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     display: inline;
     text-align: center;
     font-family: 'Suez One', serif;
-  font-size: 45px;
+  font-size: 120px;
   color: #607D8B;
 }
 @keyframes blink{
@@ -206,10 +210,7 @@ a{
 
 
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
-    margin:0;
-    padding:0;
-}
+
   
 
 

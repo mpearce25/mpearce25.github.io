@@ -62,27 +62,23 @@ h1{
   text-align: center;
 }
 
-#skills_header{
-	
-}
+
 #skills_list_wrapper{
 	float: right;
-	
 	position: relative;
 	left: -50%;
 	text-align: left;
 }
+
 #skills_list_wrapper > #skills_list{
 	list-style-type: none;
     overflow: hidden;
 	position:relative;
 	left: 50%;
-	
 }
+
 .skills_item{
 	display:inline;
-
-
 }
 
 

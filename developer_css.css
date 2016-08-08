@@ -38,11 +38,23 @@ body{
   font-weight: 700;
 }
 
+#active{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
 #home_link{
 	background-color: #ff9800;
 }
 #developer_link{
-	background-color: rgb(13,60,97);
+	background-color: #2196F3;
 ;
 }
 #photography_link{

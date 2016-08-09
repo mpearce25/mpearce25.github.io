@@ -1,0 +1,181 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+body{
+	
+}
+#nav_bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	z-index: 10; 
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+  position: relative;
+}
+
+.nav_item{
+    float: left;
+	width: 25%;
+	height: 65px;
+}
+
+.nav_link{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+	text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+#active{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+#home_link{
+	background-color: #ff9800;
+}
+#developer_link{
+	background-color: #2196F3;
+;
+}
+#photography_link{
+	background-color: #8BC34A;
+}
+#youtube_link{
+	background-color: #F44336;
+}
+
+
+
+/*start photos*/
+
+#photos{
+    background-color: white;
+    z-index: 10; 
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+  position: relative;
+}
+#photos_header_text{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  color: #607D8B;
+  text-align: center;
+  padding-top: 1%;
+  margin-bottom: 1%;
+}
+
+a{
+        color: #607D8B;
+
+}
+#gallery_link_wrapper{
+    color: #607D8B;
+    text-decoration: underline;
+	text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 1.2%;
+    padding-bottom: 1.2%;
+}
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* end photo gallery*/
+
+/* start gear*/
+#gear{
+    background-color: #8BC34A;
+}
+#equipment_header_text{
+    padding-top: 1.7%;
+     font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding-bottom: 1.7%;
+}
+#gear_link{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-bottom: 2%;
+    font-size: 30px;
+   
+}
+#gallery_link_wrapper{
+    text-decoration: underline;
+	text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 1.2%;
+    padding-bottom: 1.2%;
+}
+/*end gear*/

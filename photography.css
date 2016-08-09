@@ -101,11 +101,11 @@ a{
     padding-bottom: 1.2%;
 }
 div.img {
-    border: 1px solid #ccc;
+   
 }
 
 div.img:hover {
-    border: 1px solid #777;
+    
 }
 
 div.img img {

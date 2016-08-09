@@ -1,4 +1,4 @@
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td { 
     margin:0;
     padding:0;
 }
@@ -67,11 +67,13 @@ body{
 
 
 /*start skills*/
-h1{
+#skills_header{
   font-family: 'Suez One', serif;
   font-size: 60px;
   color: #607D8B;
   text-align: center;
+  margin-top: 2%;
+  margin-bottom: 0.4%;
 }
 
 
@@ -91,9 +93,71 @@ h1{
 
 .skills_item{
 	display:inline;
+	font-family: 'Suez One', serif;
+  font-size: 15px;
+  color: #607D8B;
 }
-
-
 /* skills*/
 
+/*start apps*/
+#spacer{
+	background-color: blue;
+	margin-top: 8.5%;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;	
+}
 
+#project_header{
+  font-family: 'Suez One', serif;
+  font-size: 60px;
+  color: #607D8B;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: underline;
+}
+
+#rubiks_cube{
+	width: 100%;
+	background-color: rgba(200,200,200, .5);
+	display: inline-block;
+}
+#rubiks_cube_description{
+	width: 49.7%;
+	display: inline-block;
+	position: relative;
+	background-color: rgba(150,150,150, .5);
+}
+#rubiks_cube_description_text_header{
+  font-family: 'Suez One', serif;
+  font-size: 35px;
+  color: #607D8B;
+  text-align: center;
+  margin-left: 5%;
+}
+#rubiks_cube_description_text{
+	font-family: 'Suez One', serif;
+  font-size: 20px;
+  color: #607D8B;
+  text-align: left;
+  margin-left: 3%;
+  vertical-align: top;
+}
+#rubiks_cube_images{
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	background-color: blue;
+	
+}
+/*end apps*/
+
+/* start github*/
+#project{
+	text-align: center;
+}
+/*end github*/
+
+hr{
+
+}

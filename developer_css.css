@@ -123,7 +123,7 @@ body{
 }
 
 #rubiks{
-	background-color: #009688;
+	background-color: #FF9800;
 	z-index: 10; 
   -webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
@@ -195,6 +195,45 @@ body{
 	width: 65%;
 	display: inline-block;
 }
+
+
+#final_calculator{
+	background-color: #8BC34A;
+	z-index: 8; 
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.75);
+  position: relative;
+  
+}
+#final_calculator_description{
+	width: 30.7%;
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+	
+}
+#final_calculator_description_text_header{
+  font-family: 'Suez One', serif;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  margin-left: 5%;
+  margin-bottom: 0%;
+}
+#final_calculator_description_text{
+	font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  margin-left: 3%; 
+}
+#final_calculator_images{
+	width: 65%;
+	display: inline-block;
+}
+
 
 
 

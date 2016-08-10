@@ -173,11 +173,17 @@ div.desc {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin-bottom: 2%;
-    font-size: 30px;
-   
+    font-size: 30px; 
+}
+#gear_link_wrapper{
+	 color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-bottom: 2%;
+    font-size: 30px; 
 }
 #gallery_link_wrapper{
-    text-decoration: underline;
+    text-decoration: none;
 	text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 300;

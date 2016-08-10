@@ -10,6 +10,7 @@ body{
     background: -webkit-linear-gradient(left,  #ffffff 0%,#efefef 40%,#efefef 60%,#ffffff 100%); 
     background: linear-gradient(to right,  #ffffff 0%,#efefef 40%,#efefef 60%,#ffffff 100%); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
+    background-color:#ff9800;
 }
 
 #home_intro{

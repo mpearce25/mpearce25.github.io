@@ -172,14 +172,14 @@ div.desc {
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    margin-bottom: 2%;
+    margin-bottom: .1%;
     font-size: 30px; 
 }
 #gear_link_wrapper{
 	 color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
     font-size: 30px; 
 }
 #gallery_link_wrapper{
@@ -188,6 +188,6 @@ div.desc {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin-top: 1.2%;
-    padding-bottom: 1.2%;
+    padding-bottom: .1%;
 }
 /*end gear*/

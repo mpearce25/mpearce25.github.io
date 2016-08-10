@@ -2,9 +2,6 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
     margin:0;
     padding:0;
 }
-body{
-	
-}
 #nav_bar{
     list-style-type: none;
     overflow: hidden;
@@ -19,7 +16,6 @@ body{
 	width: 25%;
 	height: 65px;
 }
-
 .nav_link{
     display: block;
     color: white;
@@ -32,7 +28,6 @@ body{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 }
-
 
 #home_link{
 	background-color: #ff9800;

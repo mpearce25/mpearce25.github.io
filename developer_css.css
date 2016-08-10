@@ -55,7 +55,6 @@ body{
 }
 #developer_link{
 	background-color: #2196F3;
-;
 }
 #photography_link{
 	background-color: #8BC34A;
@@ -64,9 +63,17 @@ body{
 	background-color: #F44336;
 }
 
+@media screen and (max-width: 500px){
+	.nav_link{
+		font-size: 500px;
+	}
+}
 
 
 /*start skills*/
+#skills_wrapper{
+	background-color: white;
+}
 #skills_header{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -75,6 +82,7 @@ body{
   text-align: center;
   margin-top: 2%;
   margin-bottom: 0.4%;
+  background-color: white;
 }
 
 
@@ -83,6 +91,7 @@ body{
 	position: relative;
 	left: -50%;
 	text-align: left;
+	background-color: white;
 }
 
 #skills_list_wrapper > #skills_list{

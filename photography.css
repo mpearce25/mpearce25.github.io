@@ -3,7 +3,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
     padding:0;
 }
 body{
-	
+	background-color: #8BC34A;
 }
 #nav_bar{
     list-style-type: none;
@@ -12,10 +12,10 @@ body{
     overflow: hidden;
     background-color: #333;
 	z-index: 10; 
-  -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
-  position: relative;
+	-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+	position: relative;
 }
 
 .nav_item{
@@ -30,12 +30,11 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	
 	text-align: center;
-  color: white;
-  font-size: 30px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
+	color: white;
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 }
 
 #active{

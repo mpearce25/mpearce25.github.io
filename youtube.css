@@ -141,11 +141,15 @@ a{
    color: #607D8B;
 }
 
+/* end description*/
+
+/*start stats*/
 #stats{
 	background-color: #F44336;
 	z-index: 9;
 	margin-bottom: 0%;
 	overflow: hidden;
+	width: 100%;
 }
 
 #channel_stats{
@@ -160,4 +164,30 @@ a{
   margin-top: 0%;
   padding-top: 2%;
   text-align: center;
+}
+
+#stats_center_col{
+	width: 80%;
+  display: inline-block;
+  position: relative;
+ 
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+
+
+#stats_list_center_col{
+	 font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  margin-left: 20%;
+  list-style: none;
+  
+}
+
+#stats_list_item{
+	
+	margin-bottom: 1.5%;
 }

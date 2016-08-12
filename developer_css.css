@@ -467,3 +467,9 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
 		font-size: 45px;
 	}
 }
+/*http://stackoverflow.com/questions/7425665/switching-the-order-of-block-elements-with-css
+#home_squares_wrapper{
+        display: flex;
+        flex-flow:row;
+    }
+    #home_youtuber_square{order:-1;}*/

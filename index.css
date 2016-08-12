@@ -157,7 +157,6 @@ h1{
 }
 
 
-
 @media only screen and (max-width: 800px) {
     
     .home_squares {
@@ -180,27 +179,4 @@ h1{
          text-align: center;
     }
 }
-@media only screen and (width: 1440px) {
-    
-    .home_squares {
-        text-align: center;
-        color: white;
-        font-size: 15px;
-        width: 100%;
-        height: 75px;
-    }
-    #home_squares_text{
-        margin-top: 22.5px;
-        font-size: 30px;
-    }
-    #home_about_header_text{
-        font-size: 75px;
-         text-align: center;
-    }
-    .typed-cursor{
-        font-size: 75px;
-         text-align: center;
-    }
-}
-
 

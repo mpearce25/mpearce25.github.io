@@ -106,7 +106,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
 	box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
 	position: relative;
 }
-#project_description{
+.project_description{
 	width: 34.7%;
 	display: inline-block;
 	height: 100%;
@@ -135,7 +135,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
 	text-align: left;
 	margin-right: 3%;
 }
-#project_images{
+.project_images{
 	width: 65%;
 	display: inline-block;
 }
@@ -186,12 +186,51 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
 }
 
 
+@media screen and (max-width: 800px) {
+    .nav_item{
+        width: 100%;
+    }
+	.section_header{
+		font-size: 45px;
+	}
+	#project_description_text_header{
+		font-size: 30px;
+	}
+	#project_description_text_left{
+		font-size: 18px;
+		margin-top: 1%;
+	}
+	#project_description_text_right{
+		font-size: 18px;
+		margin-top: 1%;
+	}
+	.project_description{
+		width: 90%;
+	}
+	.project_images{
+		width: 100%;
+	}
+	#project_hybrid{
+		display: flex;
+		flex-flow: column;
+	}
+	#hybrid_description{order: 1;}
+	#hybrid_images{order: 2};
+	
+	
+}
+/*http://stackoverflow.com/questions/7425665/switching-the-order-of-block-elements-with-css
+#home_squares_wrapper{
+        display: flex;
+        flex-flow:row;
+    }
+    #home_youtuber_square{order:-1;}*/
 
-/*end apps*/
 
-/* start github*/
 
-/*end github*/
+
+
+
 
 /****************************************************************
  *
@@ -458,18 +497,3 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
 .c100.blue.dark:hover > span {
   color: #2196F3;
 }
-
-@media screen and (max-width: 800px) {
-    .nav_item{
-        width: 100%;
-    }
-	.section_header{
-		font-size: 45px;
-	}
-}
-/*http://stackoverflow.com/questions/7425665/switching-the-order-of-block-elements-with-css
-#home_squares_wrapper{
-        display: flex;
-        flex-flow:row;
-    }
-    #home_youtuber_square{order:-1;}*/

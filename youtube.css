@@ -165,4 +165,7 @@ a{
     .nav_item{
         width: 100%;
     }
+    #channel_name{
+        font-size: 45px;
+    }
 }

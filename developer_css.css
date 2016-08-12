@@ -15,6 +15,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
     float: left;
 	width: 25%;
 	height: 65px;
+	transition: .5s;
 }
 .nav_link{
     display: block;
@@ -32,16 +33,24 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
 #home_link{
 	background-color: #ff9800;
 }
+#home_link:hover{
+	background-color: #EF6C00;
+}
 #developer_link{
 	background-color: #2196F3;	
 }
 #photography_link{
 	background-color: #8BC34A;
 }
+#photography_link:hover{
+	background-color: #2E7D32;
+}
 #youtube_link{
 	background-color: #F44336;
 }
-
+#youtube_link:hover{
+	background-color: #B71C1C;
+}
 /*start skills*/
 #skills_wrapper{
 	

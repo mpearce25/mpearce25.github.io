@@ -17,6 +17,7 @@ body{
     float: left;
 	width: 25%;
 	height: 65px;
+     transition: .5s;
 }
 .nav_link{
     display: block;
@@ -33,14 +34,23 @@ body{
 #home_link{
 	background-color: #ff9800;
 }
+#home_link:hover{
+	background-color: #EF6C00;
+}
 #developer_link{
 	background-color: #2196F3;
+}
+#developer_link:hover{
+  background-color: #1565C0;
 }
 #photography_link{
 	background-color: #8BC34A;
 }
 #youtube_link{
 	background-color: #F44336;
+}
+#youtube_link:hover{
+	background-color: #B71C1C;
 }
 
 /*start photos*/

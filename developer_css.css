@@ -444,7 +444,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
   color: #F44336;
 }
 
-#2196F3;
+
 
 .c100.blue .bar, .c100.blue .fill {
   border-color: #2196F3; !important;
@@ -459,3 +459,8 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
   color: #2196F3;
 }
 
+@media screen and (max-width: 800px) {
+    .nav_item{
+        width: 100%;
+    }
+}

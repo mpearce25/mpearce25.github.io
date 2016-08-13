@@ -172,6 +172,21 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
 	width: 30%;
 	display: inline-block;
 }
+#final_calc_image_1{
+	width: 35%;
+	height: auto;
+	margin-left:
+	auto; margin-right:
+	auto;
+	display: inline-block;
+}
+#final_calc_image_2{
+	width: 35%;
+	height: auto;
+	margin-left:auto;
+	margin-right: auto;
+	display: inline-block;
+}
 .color_sampler{
 	background-color: #F44336;
 	z-index: 7; 
@@ -193,6 +208,32 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
 	.section_header{
 		font-size: 45px;
 	}
+	
+	/*add shadows to all
+	 #home_link{
+		z-index: 16; 
+		-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+		position: relative;
+	}
+	#developer_link{
+		z-index: 15; 
+		-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+		position: relative;
+	}
+	#photography_link{
+		z-index: 14; 
+		-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+		position: relative;
+	}
+	#youtuber_link{
+		z-index: 11; 
+		-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+		position: relative;
+	}*/
 	#project_description_text_header{
 		font-size: 30px;
 	}
@@ -203,19 +244,40 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
 	#project_description_text_right{
 		font-size: 18px;
 		margin-top: 1%;
+		
 	}
 	.project_description{
 		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	.project_images{
 		width: 100%;
 	}
-	#project_hybrid{
+	.hybrid{
 		display: flex;
 		flex-flow: column;
 	}
 	#hybrid_description{order: 1;}
-	#hybrid_images{order: 2};
+	#hybrid_images{order: 2;}
+	
+	#final_calculator_description{
+		width: 90%;
+	}
+	#final_calc_image_1{
+		width: 49%;
+	}
+	#final_calc_image_2{
+		width: 49%;
+	}
+	
+	.color_sampler{
+		display: flex;
+		flex-flow: column;
+	}
+	#color_sampler_description{order: 1;}
+	#color_sampler_images{order: 2;}
+	
 	
 	
 }

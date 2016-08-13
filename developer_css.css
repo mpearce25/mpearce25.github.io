@@ -278,6 +278,14 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,bl
 	#color_sampler_description{order: 1;}
 	#color_sampler_images{order: 2;}
 	
+	.central_limit{
+		display: flex;
+		flex-flow: column;
+	}
+	#central_limit_description{order: 1;}
+	#central_limit_images{order: 2;}
+	
+	
 	
 	
 }
